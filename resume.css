@@ -1,426 +1,106 @@
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
-border:0;
-font:inherit;
-font-size:100%;
-margin:0;
-padding:0;
-vertical-align:baseline;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wilson Weng Resume</title>
+	<link rel = "stylesheet" type = "text/css" href="resumeWilson_style.css">
+</head>
 
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-display:block;
-}
-
-html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
-
-.clear {clear: both;}
-
-p {
-	font-size: 1em;
-	line-height: 1.4em;
-	margin-bottom: 20px;
-	color: #444;
-}
-
-#cv {
-	width: 90%;
-	max-width: 800px;
-	background: #f3f3f3;
-	margin: 30px auto;
-}
-
-.mainDetails {
-	padding: 25px 35px;
-	border-bottom: 2px solid #cf8a05;
-	background: #ededed;
-}
-
-#name h1 {
-	font-size: 2.5em;
-	font-weight: 700;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	margin-bottom: -6px;
-}
-
-#name h2 {
-	font-size: 2em;
-	margin-left: 2px;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-}
-
-#mainArea {
-	padding: 0 40px;
-}
-
-#headshot {
-	width: 12.5%;
-	float: left;
-	margin-right: 30px;
-}
-
-#headshot img {
-	width: 100%;
-	height: auto;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-}
-
-#name {
-	float: left;
-}
-
-#contactDetails {
-	float: right;
-}
-
-#contactDetails ul {
-	list-style-type: none;
-	font-size: 0.9em;
-	margin-top: 2px;
-}
-
-#contactDetails ul li {
-	margin-bottom: 3px;
-	color: #444;
-}
-
-#contactDetails ul li a, a[href^=tel] {
-	color: #444; 
-	text-decoration: none;
-	-webkit-transition: all .3s ease-in;
-	-moz-transition: all .3s ease-in;
-	-o-transition: all .3s ease-in;
-	-ms-transition: all .3s ease-in;
-	transition: all .3s ease-in;
-}
-
-#contactDetails ul li a:hover { 
-	color: #cf8a05;
-}
-
-
-section {
-	border-top: 1px solid #dedede;
-	padding: 20px 0 0;
-}
-
-section:first-child {
-	border-top: 0;
-}
-
-section:last-child {
-	padding: 20px 0 10px;
-}
-
-.sectionTitle {
-	float: left;
-	width: 25%;
-}
-
-.sectionContent {
-	float: right;
-	width: 72.5%;
-}
-
-.sectionTitle h1 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-style: italic;
-	font-size: 1.5em;
-	color: #cf8a05;
-}
-
-.sectionContent h2 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
-	margin-bottom: -2px;
-}
-
-.subDetails {
-	font-size: 0.8em;
-	font-style: italic;
-	margin-bottom: 3px;
-}
-
-.keySkills {
-	list-style-type: none;
-	-moz-column-count:3;
-	-webkit-column-count:3;
-	column-count:3;
-	margin-bottom: 20px;
-	font-size: 1em;
-	color: #444;
-}
-
-.keySkills ul li {
-	margin-bottom: 3px;
-}
-
-@media all and (min-width: 602px) and (max-width: 800px) {
-	#headshot {
-		display: none;
-	}
+	<body>
+		<div class = "header">
+			<img src="/Users/yidingweng/Documents/ResumeWilson/images/image1.JPG" class = "prof-pic">
+			<h1>Wilson Weng</h1>
+			<p>
+				808 Berry Street <br/>
+				St Paul, MN 55114<br/>
+				T: 612-222-9424 <br/>
+				E: wengx034@umn.edu<br/>
+			</P>
+		</div>
+		<div class="line-break"></div>
+		<div class = "Objective">
 	
-	.keySkills {
-	-moz-column-count:2;
-	-webkit-column-count:2;
-	column-count:2;
-	}
-}
+			<h3>OBJECTIVE</h3>
+			<p>To obtain a data analysis job in Twin Cities area</p>
+		</div>
+		
+		<div class = "Qualifications">
+			<h3>QUALIFICATIONS</h3>
+			<p>
+				Experience in Mathematical analysis and Object-oriented programming<br/>
+				Ability to collaborate in design projects with members of various background<br/>
+				Extensive training in on-site research and study<br/>
+			</P>
+		</div>
+		
+		<div class = "Education">
+			<h3>EDUCATION</h3>
+			<ul>
+				<li><h4>University of St. Thomas <br/> 
+					<i>Master of Science in Data Science</i>
+				</h4>
+				<i><p>September 2016-present</p></i></li>
+				<li><h4>University of Minnesota-Twin Cities <br/> 
+					<i>Bachelor of Design in Architecture <br/>
+					Bachelor of Art in Mathematics</i>
+				</h4> 
+				<i><p>September 2011- August 2016</p></i></li>
+			</ul>
+		</div>
+		
+		<div class = "Relevent Skills">
+			<h3>RELEVANT SKILLS</h3>
+			<ul>
+				<li><h4>Object-oriented Programming</h4>
+				<p>Develop searching and sorting algorithm and Implement abstract data types such as stacks, queues, linked lists, hash tables, binary trees using Java and Python.</p></li>
+				<li><h4>Numerical Analysis and Mathematical Modeling</h4>
+				<p>Use Matlab to solve solution of linear equations and systems, numerical linear algebra and eigenvalues, to calculate interpolation and approximation, numerical differentiation and integration.
+				Solve mathematical problem with Julia involving optimization, dynamic and probability models.</p></li>
+				<li><h4>Graphic presentation and design</h4>
+				<p>Draw contouring diagram of life object or 3-D model with Illustrator, create rendering image of design product with Photoshop, and produce presentation sheet with InDesign.</p></li>
+			</ul>
+		</div>
 
-@media all and (max-width: 601px) {
-	#cv {
-		width: 95%;
-		margin: 10px auto;
-		min-width: 280px;
-	}
-	
-	#headshot {
-		display: none;
-	}
-	
-	#name, #contactDetails {
-		float: none;
-		width: 100%;
-		text-align: center;
-	}
-	
-	.sectionTitle, .sectionContent {
-		float: none;
-		width: 100%;
-	}
-	
-	.sectionTitle {
-		margin-left: -2px;
-		font-size: 1.25em;
-	}
-	
-	.keySkills {
-		-moz-column-count:2;
-		-webkit-column-count:2;
-		column-count:2;
-	}
-}
+		<div class = "Independent Research">
+			<h3>INDEPENDENT RESEARCH</h3>
+			<ul>
+				<li><h4>Thesis paper on Elliptic curve cryptology</h4>
+				<p>Conduct research in public key cryptography about the application of RSA and Elliptic curve cryptology, supervised by Math Prof. Kai-wen Lan.</p>
+				<i><p>June-August 2016</p></i></li>
+			<ul>
+		</div>
 
-@media all and (max-width: 480px) {
-	.mainDetails {
-		padding: 15px 15px;
-	}
-	
-	section {
-		padding: 15px 0 0;
-	}
-	
-	#mainArea {
-		padding: 0 25px;
-	}
+		<div class = "Study Abroad Projects">
+			<h3>STUDY ABROAD PROJECTS</h3>
+			<ul>
+				<li><h4>Travelling studio in Japan</h4>
+				<p>Collaborate with college students in Japan to make a design proposal of temporary structure in Odaiba Park for 2020 Tokyo Olympics.</p>
+				<i><p>May-June 2014</p></i></li>
+				<li><h4>CEA Florence Academic Institution</h4>
+				<p>Explore the historical and architectural context of Florence through photography documentation and hand sketching, and design an experiential map for the route between Santa Maria Novella and Santa Spirito.</p>
+				<i><p>May-June 2014</p></i></li>
+			</ul>
+		</div>
 
-	
-	.keySkills {
-	-moz-column-count:1;
-	-webkit-column-count:1;
-	column-count:1;
-	}
-	
-	#name h1 {
-		line-height: .8em;
-		margin-bottom: 4px;
-	}
-}
+		<div class = "Extra Couricular">
+			<h3>EXTRA COURICULAR </h3>
+			<ul>
+				<li><h4>International Undergraduate Student Ministry</h4>
+				<p>Lead weekly setup of video/audio system. <br/>
+				Facilitate small group discussion after bible study. <br/>
+				Keep in contact with and mentor younger members.
+				</p>
+				<i><p>August 2012-Present</p></i></li>
+			</ul>
+		</div>
 
-@media print {
-    #cv {
-        width: 100%;
-    }
-}
-
-@-webkit-keyframes reset {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-
-@-webkit-keyframes fade-in {
-	0% {
-		opacity: 0;
-	}
-	40% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-moz-keyframes reset {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-
-@-moz-keyframes fade-in {
-	0% {
-		opacity: 0;
-	}
-	40% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@keyframes reset {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-
-@keyframes fade-in {
-	0% {
-		opacity: 0;
-	}
-	40% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-.instaFade {
-    -webkit-animation-name: reset, fade-in;
-    -webkit-animation-duration: 1.5s;
-    -webkit-animation-timing-function: ease-in;
-	
-	-moz-animation-name: reset, fade-in;
-    -moz-animation-duration: 1.5s;
-    -moz-animation-timing-function: ease-in;
-div
-{
-    border-radius: 5px;
-    }
-#header
-{
-    position: fixed;
-    z-index: 1;
-    height:40px;
-    width: 98%;
-    background-color: #668284;
-    margin-bottom: 10px
-    }
-
-#name {
-    float:left;
-	margin-left: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
-	color: #ffffff;
-}
-
-#email{
-    float:right;
-    margin-right: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
-	color: #ffffff;
-}
-
-#contact
-{
-    margin-left:45%;
-    padding-bottom: 10px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
-	color: #ffffff;
-    }
-
-a:hover {
-    font-weight: bold;
-}
-
-.right
-{
-    float: left;
-    margin-top: 50px;
-    padding-left:5px;
-    /*margin-right: -10px;
-    margin-left: 14%;*/
-    height: auto;
-    width: 99%;
-    background-color: #E3EDD8;
-    }
-
-/*.left
-{
-    float: left;
-    margin-top: 50px;
-    /*margin-right: -90px;
-    height: relative;
-    width: 10%;
-    background-color: #4160E8;
-    }*/
-    
-#footer
-{
-    height:40px;
-    clear:both;
-    position: relative;
-    background-color: #C1E3E1;
-    }
-    
-h3
-{
-    text-decoration: underline;
-    }
-
-#job-responsibilities
-{
-    padding: 1px;
-    }
-.job-title
-{
-    font-weight: bold;
-    }
-table
-{
-    border: 1px dashed black;
-    }
-td
-{
-    padding: 2px;
-    border: 1px solid #E88741;
-    }
-
-#course-name
-{
-    font-weight:bold;
-    }
-
-#company-name
-{
-    height:2px;
-    text-decoration:underline;
-    }
-#job-title
-{
-    height: 5px;
-    }
-.job-duration
-{
-    float:right;
-    }
-#heading
-{
-    font-weight:bold;
-    }
+		<div class = "Computer Skills">
+			<h3>COMPUTER SKILLS </h3>
+			<p><ul>
+				<li>Programming: Python, Java, Ruby, Matlab, Julia </li>
+				<li>Graphic Design: Adobe Illustrator, Photoshop, InDesign, Light room </li>
+				<li>3-D Design: AutoCAD, Google Sketchup, Lightup </li>
+				<li>Text Editing: Microsoft Office, Latex</li>	
+			</ul></p>
+		</div>
+	</body>
+</html>
