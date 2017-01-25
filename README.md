@@ -1,2 +1,2 @@
-# yidingResume.github.io
+# http://yidingResume.github.io
 Resume for Prime Academy
